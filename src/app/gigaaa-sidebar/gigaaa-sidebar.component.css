@@ -1,6 +1,6 @@
 .sidebar{
     background: #FFFFFF;
-border: 1px solid rgba(208, 208, 222, 0.8);
+border-right: 1px solid rgba(208, 208, 222, 0.8);
 box-sizing: border-box;
 height: 100%;
 width: 340px;
@@ -50,7 +50,7 @@ a {
     padding-left: 15px;
     font-family: "Roboto",sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 50px;
     /* identical to box height */
@@ -200,7 +200,7 @@ ul li.activelink img.gigaaa-sidebar-icons{
 .gigaaa-collaspe{
     font-family: "Roboto",sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: -0.02em;
