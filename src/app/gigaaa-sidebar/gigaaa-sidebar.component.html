@@ -6,8 +6,6 @@
 
     </div>
     </div>
-
-    
        <ul class="vertical menu " data-accordion-menu>
         <li class="dropdownitem"><img [src]="dropdown_icon" alt="">
           <a href="#">
@@ -24,7 +22,6 @@
         <li class="listitem" [routerLink]="data.link"  routerLinkActive="activelink"   *ngFor="let data of sidebar_item;"><img class="gigaaa-sidebar-icons" [src]="data.icon" alt="" srcset="">
           <a >{{data.name}}</a></li>
         </ul>
-    
         <div class="gigaaa-collapsepanel">
           <div id="sidebarCollapse" class="gigaaa-collaspe-icon"  ></div>
         <a class="gigaaa-collaspe">Collapse sidebar</a>            

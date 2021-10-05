@@ -47,7 +47,7 @@ export class GigaaaSidebarComponent implements OnInit {
     this.show_dropdown=true;
     this.dropdown_icon='../assets/integration_icon.svg';
     this.dropdown_heading="Select integration";
-    this.sidebar_item=[{icon:"../assets/dashboard_icon.svg",link:"accountmenu",name:"Dashboard"},
+    this.sidebar_item=[{icon:"../assets/dashboard_icon.svg",link:"dashboard",name:"Dashboard"},
     {icon:"../assets/calls_icon.svg",link:"call",name:"Calls"},
     {icon:"../assets/agents_icon.svg",link:"agents",name:"Agents"}];
     this.dropdown_array=[{link:"",name:"google"},
