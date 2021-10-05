@@ -73,6 +73,8 @@ ul li{
 #sidebarpanel.active ul li.dropdownitem{
     height: 50px;
     line-height: 49px;
+    position: relative;
+    z-index: -2;
 }
 ul li.listitem{
     display: flex;
