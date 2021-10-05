@@ -190,18 +190,18 @@ ul li.activelink img.gigaaa-sidebar-icons{
 {    background-repeat: no-repeat;
     background-image: url('../../assets/gigaaa_logo_long_new.png');
 
-    background-size: 120px 45px;
-    height: 45px;
-    width: 120px;
+    background-size: 112px 40px;
+    height: 40px;
+    width: 112px;
     display: inline-block;
     margin-left: 10px;
 }
 .gigaaa-logo-collaspe1
 {    background-repeat: no-repeat;
     background-image: url('../../assets/gigaaa_logo_short_new.png');
-    background-size: 45px 45px;
-    height: 45px;
-    width: 45px;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
     display: inline-block;
 }
 .gigaaa-collaspe{
