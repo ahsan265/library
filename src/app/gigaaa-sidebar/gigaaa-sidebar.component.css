@@ -66,7 +66,6 @@ ul {
     margin-right: 25px;
 }
 ul li{
-    margin-bottom: 18px;
     max-width: 293px;
     min-width: 57px;
     border-radius: 5px;
@@ -88,7 +87,7 @@ ul.nested{
     min-height: 60px;
     max-height: 140px;
     height: 140px;
-    width: 238px;
+    width: 236px;
 }
 ul.nested::-webkit-scrollbar{
     width: 8px;
@@ -194,7 +193,7 @@ ul li.activelink img.gigaaa-sidebar-icons{
     height: 36px;
     width: 36px;
     display: inline-block;
-    margin-left: 1px;
+    margin-left: 10px;
 
 
 }
