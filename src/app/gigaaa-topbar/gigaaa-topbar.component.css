@@ -1,0 +1,47 @@
+nav{
+    width: 100%;
+    display: block;
+}
+.gigaaa-profile-icon
+{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+}
+.gigaaa-settings-panel{
+    display: flex;
+    float: right;
+}
+svg{
+    margin-left: 22px;
+    float: right;
+    cursor: pointer;
+
+}
+.gigaaa-profile-icon-panel{
+    display: flex;
+    float: right;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-right: 12px;
+  
+    height: 20x;
+    width: 20x;
+    position: relative;
+}
+
+.status-circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #2FDE13;
+    bottom: 0;
+    right: -2px;
+    position: absolute;
+  }
+
+  .logo-img path {
+    background-color: #000;
+  }

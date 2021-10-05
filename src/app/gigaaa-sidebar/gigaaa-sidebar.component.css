@@ -1,0 +1,216 @@
+.sidebar{
+    background: #FFFFFF;
+border: 1px solid rgba(208, 208, 222, 0.8);
+box-sizing: border-box;
+height: 100%;
+width: 340px;
+position: fixed;
+transition-duration: 0.5s;
+
+}
+#sidebarpanel.active{
+    min-width: 102px;
+    max-width: 102px;
+    transition-duration: 0.5s;
+    transition: 0.5s;
+
+}
+#sidebarpanel.active .gigaaa-icon-panel .gigaaa-sidebar-heading{
+   display: none;
+}
+#sidebarpanel.active ul li a{
+    visibility: hidden;
+}
+
+#sidebarpanel.active .gigaaa-icon-panel{
+    text-align: center;
+    transition-duration: 0.5s;
+}
+#sidebarpanel.active ul li svg.dropdown-arrow{
+    visibility: hidden;
+    display: none;
+}
+.gigaaa-icon-panel
+{
+    padding: 20px;
+}
+.gigaaa-sidebar-heading{
+    padding-left: 13px;
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 305.19%;
+text-decoration: none;
+letter-spacing: 0.02em;
+color: #162741;
+}
+a {
+    padding: 0px;
+    padding-left: 15px;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 50px;
+    /* identical to box height */
+    height: 49px;
+    color: #616B7B;
+
+}
+ul li.listitem a{
+    color: #616B7B;
+}
+ul {
+    margin-left: 22px;
+    margin-right: 25px;
+}
+ul li{
+    margin-bottom: 18px;
+    max-width: 293px;
+    min-width: 57px;
+    border-radius: 5px;
+}
+#sidebarpanel.active ul li.dropdownitem{
+    height: 50px;
+    line-height: 49px;
+}
+ul li.listitem{
+    display: flex;
+}
+ul li img{
+    margin-left: 16px;
+}
+ul.nested{
+    margin-bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 60px;
+    max-height: 140px;
+    height: 140px;
+    width: 238px;
+}
+ul.nested::-webkit-scrollbar{
+    width: 8px;
+    height: 140px;
+    background: #EDEDF0;
+}
+ul.nested::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #616B7B;
+    height: 74px;
+
+  }
+
+ul li.menuitem{
+    margin-left: 32px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    height: 39px;
+}
+ul li.menuitem a{
+padding-left: 0px;
+line-height: 39px;
+color: #616B7B;
+
+}
+ul li.menuitem:hover {
+    width: 185px;
+    background: #F2F2F5;
+    mix-blend-mode: multiply;
+    border-radius: 5px;
+}
+ul li.menuitem:focus a {
+    color: #162741;
+  
+}
+.menu  a {
+    margin-bottom: 0;
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+svg{
+    float: right;
+    position: relative;
+    right: 39px;
+    margin-top: 20px;
+}
+
+ul li.listitem:hover{
+    background: #F2F2F5;
+    mix-blend-mode: multiply;
+} 
+ul li.activelink  a{
+    color: #162741;
+    font-weight: bold;
+
+}
+ul li.activelink img.gigaaa-sidebar-icons{
+    filter: brightness(1) contrast(14.99);
+}
+.gigaaa-collapsepanel{
+ height: 36px;   
+ bottom:35px;
+ position: absolute;
+ line-height: 50px;
+ 
+}
+.gigaaa-collaspe-icon
+{    background-repeat: no-repeat;
+    background-image: url('../../assets/collapse_icon.svg');
+    background-size: 22px 22px;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.gigaaa-collaspe-icon1
+{    background-repeat: no-repeat;
+    background-image: url('../../assets/collapse1_icon.svg');
+    background-size: 22px 22px;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.gigaaa-logo-collaspe
+{    background-repeat: no-repeat;
+    background-image: url('../../assets/gigaaa_logo_long_new.png');
+    background-size: 100px 36px;
+
+    height: 36px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.gigaaa-logo-collaspe1
+{    background-repeat: no-repeat;
+    background-image: url('../../assets/gigaaa_logo_short_new.png');
+    background-size: 36px 36px;
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    margin-left: 1px;
+
+
+}
+.gigaaa-collaspe{
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: #616B7B;
+    vertical-align: super;
+    height: 22px;
+    text-decoration: none;
+    display: inline-block;
+}
+#sidebarpanel.active .gigaaa-collaspe{
+visibility: hidden;
+}
