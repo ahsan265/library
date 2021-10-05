@@ -105,7 +105,6 @@ ul.nested::-webkit-scrollbar-thumb {
 
 ul li.menuitem{
     margin-left: 32px;
-    margin-bottom: 12px;
     padding-left: 8px;
     height: 39px;
 }
@@ -141,6 +140,7 @@ svg{
 ul li.listitem:hover{
     background: #F2F2F5;
     mix-blend-mode: multiply;
+    transition-duration: 0.5s;
 } 
 ul li.activelink  a{
     color: #162741;
@@ -185,11 +185,10 @@ ul li.activelink img.gigaaa-sidebar-icons{
 .gigaaa-logo-collaspe
 {    background-repeat: no-repeat;
     background-image: url('../../assets/gigaaa_logo_long_new.png');
-    background-size: 100px 36px;
 
-    background-size: 140px 45px;
+    background-size: 120px 45px;
     height: 45px;
-    width: 140px;
+    width: 120px;
     display: inline-block;
     margin-left: 10px;
 }
