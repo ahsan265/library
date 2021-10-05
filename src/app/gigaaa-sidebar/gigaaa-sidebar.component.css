@@ -135,9 +135,12 @@ svg{
     position: relative;
     right: -52px;
     margin-top: 20px;
-
+   transition-duration: 0.5s;
 }
-
+ li[aria-expanded=true].dropdownitem  svg.dropdown-arrow{
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+}
 ul li.listitem:hover{
     background: #F2F2F5;
     mix-blend-mode: multiply;
