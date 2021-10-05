@@ -145,8 +145,12 @@ ul li.activelink  a{
     font-weight: bold;
 
 }
+.gigaaa-sidebar-icons{
+    cursor: pointer;
+}
 ul li.activelink img.gigaaa-sidebar-icons{
     filter: brightness(1) contrast(14.99);
+
 }
 .gigaaa-collapsepanel{
  height: 36px;   
@@ -181,21 +185,19 @@ ul li.activelink img.gigaaa-sidebar-icons{
     background-image: url('../../assets/gigaaa_logo_long_new.png');
     background-size: 100px 36px;
 
-    height: 36px;
-    width: 100px;
+    background-size: 140px 45px;
+    height: 45px;
+    width: 140px;
     display: inline-block;
     margin-left: 10px;
 }
 .gigaaa-logo-collaspe1
 {    background-repeat: no-repeat;
     background-image: url('../../assets/gigaaa_logo_short_new.png');
-    background-size: 36px 36px;
-    height: 36px;
-    width: 36px;
+    background-size: 45px 45px;
+    height: 45px;
+    width: 45px;
     display: inline-block;
-    margin-left: 10px;
-
-
 }
 .gigaaa-collaspe{
     font-family: "Roboto",sans-serif;
