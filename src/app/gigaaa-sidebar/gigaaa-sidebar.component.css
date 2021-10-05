@@ -133,8 +133,9 @@ ul li.menuitem:focus a {
 svg{
     float: right;
     position: relative;
-    right: 39px;
+    right: -52px;
     margin-top: 20px;
+
 }
 
 ul li.listitem:hover{
