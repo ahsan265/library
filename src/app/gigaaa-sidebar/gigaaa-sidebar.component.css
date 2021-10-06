@@ -30,6 +30,10 @@ transition-duration: 0.5s;
     visibility: hidden;
     display: none;
 }
+#sidebarpanel.active ul.nested
+{
+    display: none;
+}
 .gigaaa-icon-panel
 {
     padding: 20px;
