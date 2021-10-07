@@ -57,7 +57,7 @@ a {
     font-weight: 380;
     font-size: 18px;
     line-height: 50px;
-    /* identical to box height */
+    display: inline-block;
     height: 49px;
     color: #616B7B;
 
@@ -66,7 +66,7 @@ ul li.listitem a{
     color: #616B7B;
 }
 ul {
-    margin-left: 22px;
+    margin-left: 25px;
     margin-right: 25px;
 }
 ul li{
@@ -75,10 +75,13 @@ ul li{
     border-radius: 5px;
 }
 #sidebarpanel.active ul li.dropdownitem{
-    height: 50px;
-    line-height: 49px;
+    height: 49px;
+    line-height: 48px;
     position: relative;
     z-index: -2;
+}
+#sidebarpanel.active #showdropdown{
+    visibility: hidden;
 }
 ul li.listitem{
     display: flex;
@@ -128,7 +131,7 @@ ul li.menuitem:focus a {
     color: #162741;
   
 }
-.menu  a {
+.menu > a {
     margin-bottom: 0;
     position: relative;
     display: inline-flex;
@@ -198,7 +201,7 @@ ul li.activelink img.gigaaa-sidebar-icons{
     height: 40px;
     width: 112px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 10.5px;
 }
 .gigaaa-logo-collaspe1
 {    background-repeat: no-repeat;
@@ -207,6 +210,7 @@ ul li.activelink img.gigaaa-sidebar-icons{
     height: 40px;
     width: 40px;
     display: inline-block;
+    margin: 0 auto;
 }
 .gigaaa-collaspe{
     font-family: "Roboto",sans-serif;
