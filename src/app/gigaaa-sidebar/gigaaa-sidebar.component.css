@@ -109,7 +109,10 @@ ul.nested::-webkit-scrollbar-thumb {
     height: 74px;
 
   }
-
+  .menu.vertical li {
+    display: block;
+    line-height: 50px;
+}
 ul li.menuitem{
     margin-left: 32px;
     padding-left: 8px;
