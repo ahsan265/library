@@ -76,12 +76,13 @@ ul li{
 }
 #sidebarpanel.active ul li.dropdownitem{
     height: 49px;
-    line-height: 48px;
+    line-height: 50px;
     position: relative;
     z-index: -2;
 }
 #sidebarpanel.active #showdropdown{
     visibility: hidden;
+  
 }
 ul li.listitem{
     display: flex;
@@ -109,10 +110,7 @@ ul.nested::-webkit-scrollbar-thumb {
     height: 74px;
 
   }
-  .menu.vertical li {
-    display: block;
-    line-height: 50px;
-}
+
 ul li.menuitem{
     margin-left: 32px;
     padding-left: 8px;
