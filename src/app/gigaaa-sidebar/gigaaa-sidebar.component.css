@@ -144,7 +144,7 @@ svg{
     float: right;
     position: relative;
     right: -52px;
-    margin-top: 20px;
+    margin-top: 22px;
    transition-duration: 0.5s;
 }
  li[aria-expanded=true].dropdownitem  svg.dropdown-arrow{
