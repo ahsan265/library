@@ -131,6 +131,9 @@ ul li.menuitem:focus a {
     color: #162741;
   
 }
+li.dropdownitem img{
+vertical-align: sub;
+}
 .menu > a {
     margin-bottom: 0;
     position: relative;
