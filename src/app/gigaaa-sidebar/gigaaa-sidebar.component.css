@@ -96,7 +96,7 @@ ul.nested{
     min-height: 60px;
     max-height: 140px;
     height: 140px;
-    width: 235.5px;
+    width: 235px;
 }
 ul.nested::-webkit-scrollbar{
     width: 8px;
