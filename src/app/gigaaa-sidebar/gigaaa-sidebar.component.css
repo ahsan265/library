@@ -143,8 +143,8 @@ vertical-align: sub;
 }
 svg{
     float: right;
-    position: relative;
-    right: -52px;
+    position: absolute;
+    right:36px;
     margin-top: 22px;
    transition-duration: 0.5s;
 }
